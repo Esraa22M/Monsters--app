@@ -1,0 +1,17 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid gray;
+    padding: 1.5em;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transition: transform 0.25s ease-in-out;
+}
+.card-container:hover{
+    transform:  scale(1.05);
+
+}
+.card-container img{
+    width: 100%;
+}
